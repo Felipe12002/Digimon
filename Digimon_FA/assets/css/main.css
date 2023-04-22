@@ -1,0 +1,105 @@
+#cuerpo {
+    background-color: #220ba5;
+    font-family: sans-serif;
+    margin: auto;
+    width: auto;
+    padding: 0px 10px 0px;
+    max-width: 1400px;
+
+}
+
+.list-group-item {
+    background-color: blue    ;
+    color: white;
+}
+
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.align-middle {
+    font-size: large;
+    color: blue;
+    font-weight: 600;
+}
+
+#header {
+    max-width: 1200px;
+    display: flex;
+    padding: 150px 0px 150px;
+    font-size: large;
+}
+
+#titulo {
+    color: blue;
+}
+
+main {
+    background-image: url(../img/fondo_pantalla.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.form-label {
+    color: blue;
+    font-size: larger;
+}
+
+#tabla {
+    color: blue;
+}
+
+@media (max-width: 767.98px) {
+    #cuerpo {
+        justify-content: center;
+        position: relative;
+    }
+
+    .nav {
+        height: 200px;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        margin-right: 60px;
+    }
+
+    .btn-toggle {
+        font-size: 25px;
+    }
+
+    #titulo {
+        margin-left: 30px;
+        padding-top: 500px;
+    }
+
+    #logo{
+        margin-left: 30px;
+    }
+
+    main {
+        background-attachment: fixed;
+        background-size: contain;
+    }
+    
+    .list-group {
+        min-width: min-content;
+        padding-top: 3px;
+        margin-left: 30px; 
+    }
+
+    
+    #tabla {
+        min-width: 50px;  
+    }
+
+}
